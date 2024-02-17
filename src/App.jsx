@@ -14,7 +14,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/contact",
-    element: <><Nav></Nav> <Contact></Contact> <Footer></Footer></>
+    element: <><Nav title="TextUtils" /> <Contact></Contact> <Footer></Footer></>
   },
   {
     path: "/myparams/:params/",
