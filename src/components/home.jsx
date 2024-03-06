@@ -69,6 +69,7 @@ function dismissalert(){
           <FormBtn text="LowerCase" value={FormValue} setvalue={setFormValue} change="low"  setAlert={setAlert} />
           <FormBtn text="Remove Extra Spaces" value={FormValue} setvalue={setFormValue} change="RS"  setAlert={setAlert} />
           <FormBtn text="Copy text" value={FormValue} setvalue={setFormValue} change="COPY"  setAlert={setAlert} />
+          <FormBtn text="Upside down" value={FormValue} setvalue={setFormValue} change="UPSIDE"  setAlert={setAlert} />
         </div>
       </div>
 
